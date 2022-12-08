@@ -1,0 +1,645 @@
+{
+	"info": {
+		"_postman_id": "cbe499a3-3b24-4bac-8203-785265f1bb1b",
+		"name": "Коллекция Хабр",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23644096"
+	},
+	"item": [
+		{
+			"name": "Все потоки",
+			"item": [
+				{
+					"name": "Статьи",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/all/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"all",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Новости",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/news/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"news",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Хабы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/hubs/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"hubs",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Авторы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/users/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Компании",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/companies/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"companies",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Разработка",
+			"item": [
+				{
+					"name": "Статьи",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/develop/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"develop",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Новости",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/develop/news/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"develop",
+								"news",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Хабы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/develop/hubs/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"develop",
+								"hubs",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Авторы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/develop/authors/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"develop",
+								"authors",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Компании",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/develop/companies/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"develop",
+								"companies",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Администрирование",
+			"item": [
+				{
+					"name": "Статьи",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/admin/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"admin",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Новости",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/admin/news/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"admin",
+								"news",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Хабы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/admin/hubs/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"admin",
+								"hubs",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Авторы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/admin/authors/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"admin",
+								"authors",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Компании",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/admin/companies/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"admin",
+								"companies",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Дизайн",
+			"item": [
+				{
+					"name": "Статьи",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}ru/flows/design/",
+							"host": [
+								"{{UrlHabr}}ru"
+							],
+							"path": [
+								"flows",
+								"design",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Новости",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{дизайн}}{{новости}}",
+							"host": [
+								"{{UrlHabr}}{{дизайн}}{{новости}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Хабы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{дизайн}}{{хабы}}",
+							"host": [
+								"{{UrlHabr}}{{дизайн}}{{хабы}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Авторы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{дизайн}}{{авторы}}",
+							"host": [
+								"{{UrlHabr}}{{дизайн}}{{авторы}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Компании",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{дизайн}}{{компании}}",
+							"host": [
+								"{{UrlHabr}}{{дизайн}}{{компании}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Менеджмент",
+			"item": [
+				{
+					"name": "Статьи",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{менеджмент}}",
+							"host": [
+								"{{UrlHabr}}{{менеджмент}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Новости",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{менеджмент}}{{новости}}",
+							"host": [
+								"{{UrlHabr}}{{менеджмент}}{{новости}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Хабы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{менеджмент}}{{хабы}}",
+							"host": [
+								"{{UrlHabr}}{{менеджмент}}{{хабы}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Авторы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{менеджмент}}{{авторы}}",
+							"host": [
+								"{{UrlHabr}}{{менеджмент}}{{авторы}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Компании",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{менеджмент}}{{компании}}",
+							"host": [
+								"{{UrlHabr}}{{менеджмент}}{{компании}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Маркетинг",
+			"item": [
+				{
+					"name": "Статьи",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{маркетинг}}",
+							"host": [
+								"{{UrlHabr}}{{маркетинг}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Новости",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{маркетинг}}{{новости}}",
+							"host": [
+								"{{UrlHabr}}{{маркетинг}}{{новости}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Хабы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{маркетинг}}{{хабы}}",
+							"host": [
+								"{{UrlHabr}}{{маркетинг}}{{хабы}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Авторы",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{маркетинг}}{{авторы}}",
+							"host": [
+								"{{UrlHabr}}{{маркетинг}}{{авторы}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Компании",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{UrlHabr}}{{маркетинг}}{{компании}}",
+							"host": [
+								"{{UrlHabr}}{{маркетинг}}{{компании}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Создать",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"vener\",\r\n    \"job\": \"tester\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}api/users",
+					"host": [
+						"{{URL}}api"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Обновить",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Vener\",\r\n    \"job\": \"engineer\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}api/users/820",
+					"host": [
+						"{{URL}}api"
+					],
+					"path": [
+						"users",
+						"820"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}api/users/2",
+					"host": [
+						"{{URL}}api"
+					],
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Статус код 200\", function () {",
+					"pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	]
+}
