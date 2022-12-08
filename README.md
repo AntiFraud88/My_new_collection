@@ -1,1 +1,1 @@
-# My_new_collection
+# My_Postman_collection
